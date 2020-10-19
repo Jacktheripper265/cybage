@@ -1,0 +1,39 @@
+$(document).ready(()=>{
+    $('#b1').click(()=>{
+        $('.o').hide();
+        $('.y').hide();
+        $('.r').show();
+
+        $('#b1').css('background-color','greenyellow');
+        $('#b2').css('background-color','grey');
+        $('#b3').css('background-color','grey');
+        $('#b4').css('background-color','grey');
+    })
+    $('#b2').click(()=>{
+        $('.y').hide();
+        $('.r').hide();
+        $('.o').show();
+        $('#b1').css('background-color','grey');
+        $('#b2').css('background-color','greenyellow');
+        $('#b3').css('background-color','grey');
+        $('#b4').css('background-color','grey');
+    })
+    $('#b3').click(()=>{
+        $('.r').hide();
+        $('.o').hide();
+        $('.y').show();
+        $('#b1').css('background-color','grey');
+        $('#b2').css('background-color','grey');
+        $('#b3').css('background-color','greenyellow');
+        $('#b4').css('background-color','grey');
+    })
+    $('#b4').click(()=>{
+        $('.r').show();
+        $('.o').show();
+        $('.y').show();
+        $('#b1').css('background-color','grey');
+        $('#b2').css('background-color','grey');
+        $('#b3').css('background-color','grey');
+        $('#b4').css('background-color','greenyellow');
+    })
+})
