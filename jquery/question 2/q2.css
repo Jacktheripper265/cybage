@@ -1,0 +1,28 @@
+
+.main{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 10px;
+   
+}
+.sub{
+    padding: 20px;
+    border: solid;
+    margin: 10px;
+    text-align: center;
+
+}
+
+img{
+    margin-top:-20px;
+    /* margin-left: 21px; */
+    justify-content: center;
+    text-align: center;
+   
+}
+
+button{
+    /* position:relative;
+    left: 25px; */
+
+}
